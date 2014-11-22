@@ -1,9 +1,11 @@
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  background-color: #a7a7a7;
+  color: #000;
+  font-family: arial,arial,helvetica,sans-serif;
   font-size: 13px;
   line-height: 18px;
+  display: block;
+  text-align:-moz-center;
 }
 
 p, ol, ul, td {
@@ -33,6 +35,11 @@ div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
 }
 
 #notice {
