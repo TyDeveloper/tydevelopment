@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'controller/index'
+
   resources :scaffolds
 
   resources :resources
